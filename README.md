@@ -159,6 +159,12 @@ public class Post{
 
 ## Notes
 
+```java
+StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+StrictMode.setThreadPolicy(policy);
+```
+This snippet is used for demo purposes only, for production requests must be done on its own thread.
+
 ### 1. Get the API response stream
 
 ``conn.getInputStream()``
