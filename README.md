@@ -135,6 +135,28 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+
+## Post.java
+
+```java
+package com.example.apiexample;
+
+public class Post{
+    int id;
+    String title, body;
+
+    public Post(int id, String title, String body){
+        this.id=id;
+        this.title=title;
+        this.body=body;
+    }
+
+    public String getTitle(){
+        return this.title:
+    }
+}
+```
+
 ## Notes
 
 ### 1. Get the API response stream
